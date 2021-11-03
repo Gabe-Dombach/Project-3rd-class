@@ -2,27 +2,40 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    overflow: none;
 }
 
 h1{
     color: red;
     font: 40px;
 }
+header{
+    text-align: center;
+}
 
 #b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9{
-    width: 10%;
-    height: 15vh;
+    width: 20vh;
+    height: 20vh;
     border: 1px solid gray;
-    margin:auto;
+    margin:3px;
     border-radius: 6px;
     font-size: 30px;
     text-align: center;
 }
+#b1, #b2,#b3{
+    margin-top: 0;
+}
+#b8,#b9,#b7{
+    margin-bottom: 0;
+}
 .gameboard{
+    border:solid black 5px;
     margin-left:36%;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: fit-content;
+    height: fit-content;
+    padding:0;
 }
 #but{
     width: 95px;
