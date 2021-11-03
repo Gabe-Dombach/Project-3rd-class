@@ -18,12 +18,12 @@ function myfunc() {
 		(b3 == "x" || b3 == "X")
 	) {
 		$("3print").innerHTML = "Player X won";
-		$("#b4").disabled = true;
-		$("#b5").disabled = true;
-		$("#b6").disabled = true;
-		$("#b7").disabled = true;
-		$("#b8").disabled = true;
-		$("#b9").disabled = true;
+		$("#b4").prop("disabled", true);
+		$("#b5").prop("disabled", true);
+		$("#b6").prop("disabled", true);
+		$("#b7").prop("disabled", true);
+		$("#b8").prop("disabled", true);
+		$("#b9").prop("disabled", true);
 		window.alert("Player X won");
 	} else if (
 		(b1 == "x" || b1 == "X") &&
@@ -31,12 +31,12 @@ function myfunc() {
 		(b7 == "x" || b7 == "X")
 	) {
 		$("#print").innerHTML = "Player X won";
-		$("#b2").disabled = true;
-		$("#b3").disabled = true;
-		$("#b5").disabled = true;
-		$("#b6").disabled = true;
-		$("#b8").disabled = true;
-		$("#b9").disabled = true;
+		$("#b2").prop("disabled", true);
+		$("#b3").prop("disabled", true);
+		$("#b5").prop("disabled", true);
+		$("#b6").prop("disabled", true);
+		$("#b8").prop("disabled", true);
+		$("#b9").prop("disabled", true);
 
 		window.alert("Player X won");
 	} else if (
@@ -45,12 +45,12 @@ function myfunc() {
 		(b9 == "x" || b9 == "X")
 	) {
 		$("#print").innerHTML = "Player X won";
-		$("#b1").disabled = true;
-		$("#b2").disabled = true;
-		$("#b3").disabled = true;
-		$("#b4").disabled = true;
-		$("#b5").disabled = true;
-		$("#b6").disabled = true;
+		$("#b1").prop("disabled", true);
+		$("#b2").prop("disabled", true);
+		$("#b3").prop("disabled", true);
+		$("#b4").prop("disabled", true);
+		$("#b5").prop("disabled", true);
+		$("#b6").prop("disabled", true);
 		window.alert("Player X won");
 	} else if (
 		(b3 == "x" || b3 == "X") &&
@@ -58,12 +58,12 @@ function myfunc() {
 		(b9 == "x" || b9 == "X")
 	) {
 		$("#print").innerHTML = "Player X won";
-		$("#b1").disabled = true;
-		$("#b2").disabled = true;
-		$("#b4").disabled = true;
-		$("#b5").disabled = true;
-		$("#b7").disabled = true;
-		$("#b8").disabled = true;
+		$("#b1").prop("disabled", true);
+		$("#b2").prop("disabled", true);
+		$("#b4").prop("disabled", true);
+		$("#b5").prop("disabled", true);
+		$("#b7").prop("disabled", true);
+		$("#b8").prop("disabled", true);
 		window.alert("Player X won");
 	} else if (
 		(b1 == "x" || b1 == "X") &&
@@ -71,12 +71,12 @@ function myfunc() {
 		(b9 == "x" || b9 == "X")
 	) {
 		$("#print").innerHTML = "Player X won";
-		$("#b2").disabled = true;
-		$("#b3").disabled = true;
-		$("#b4").disabled = true;
-		$("#b6").disabled = true;
-		$("#b7").disabled = true;
-		$("#b8").disabled = true;
+		$("#b2").prop("disabled", true);
+		$("#b3").prop("disabled", true);
+		$("#b4").prop("disabled", true);
+		$("#b6").prop("disabled", true);
+		$("#b7").prop("disabled", true);
+		$("#b8").prop("disabled", true);
 		window.alert("Player X won");
 	} else if (
 		(b3 == "x" || b3 == "X") &&
@@ -84,12 +84,12 @@ function myfunc() {
 		(b7 == "x" || b7 == "X")
 	) {
 		$("#print").innerHTML = "Player X won";
-		$("#b1").disabled = true;
-		$("#b2").disabled = true;
-		$("#b4").disabled = true;
-		$("#b6").disabled = true;
-		$("#b8").disabled = true;
-		$("#b9").disabled = true;
+		$("#b1").prop("disabled", true);
+		$("#b2").prop("disabled", true);
+		$("#b4").prop("disabled", true);
+		$("#b6").prop("disabled", true);
+		$("#b8").prop("disabled", true);
+		$("#b9").prop("disabled", true);
 		window.alert("Player X won");
 	} else if (
 		(b2 == "x" || b2 == "X") &&
@@ -97,12 +97,12 @@ function myfunc() {
 		(b8 == "x" || b8 == "X")
 	) {
 		$("#print").innerHTML = "Player X won";
-		$("#b1").disabled = true;
-		$("#b3").disabled = true;
-		$("#b4").disabled = true;
-		$("#b6").disabled = true;
-		$("#b7").disabled = true;
-		$("#b9").disabled = true;
+		$("#b1").prop("disabled", true);
+		$("#b3").prop("disabled", true);
+		$("#b4").prop("disabled", true);
+		$("#b6").prop("disabled", true);
+		$("#b7").prop("disabled", true);
+		$("#b9").prop("disabled", true);
 		window.alert("Player X won");
 	} else if (
 		(b4 == "x" || b4 == "X") &&
@@ -110,12 +110,12 @@ function myfunc() {
 		(b6 == "x" || b6 == "X")
 	) {
 		$("#print").innerHTML = "Player X won";
-		$("#b1").disabled = true;
-		$("#b2").disabled = true;
-		$("#b3").disabled = true;
-		$("#b7").disabled = true;
-		$("#b8").disabled = true;
-		$("#b9").disabled = true;
+		$("#b1").prop("disabled", true);
+		$("#b2").prop("disabled", true);
+		$("#b3").prop("disabled", true);
+		$("#b7").prop("disabled", true);
+		$("#b8").prop("disabled", true);
+		$("#b9").prop("disabled", true);
 		window.alert("Player X won");
 	}
 
@@ -128,12 +128,12 @@ function myfunc() {
 		(b3 == "0" || b3 == "0")
 	) {
 		$("#print").innerHTML = "Player 0 won";
-		$("#b4").disabled = true;
-		$("#b5").disabled = true;
-		$("#b6").disabled = true;
-		$("#b7").disabled = true;
-		$("#b8").disabled = true;
-		$("#b9").disabled = true;
+		$("#b4").prop("disabled", true);
+		$("#b5").prop("disabled", true);
+		$("#b6").prop("disabled", true);
+		$("#b7").prop("disabled", true);
+		$("#b8").prop("disabled", true);
+		$("#b9").prop("disabled", true);
 		window.alert("Player 0 won");
 	} else if (
 		(b1 == "0" || b1 == "0") &&
@@ -141,12 +141,12 @@ function myfunc() {
 		(b7 == "0" || b7 == "0")
 	) {
 		$("#print").innerHTML = "Player 0 won";
-		$("#b2").disabled = true;
-		$("#b3").disabled = true;
-		$("#b5").disabled = true;
-		$("#b6").disabled = true;
-		$("#b8").disabled = true;
-		$("#b9").disabled = true;
+		$("#b2").prop("disabled", true);
+		$("#b3").prop("disabled", true);
+		$("#b5").prop("disabled", true);
+		$("#b6").prop("disabled", true);
+		$("#b8").prop("disabled", true);
+		$("#b9").prop("disabled", true);
 		window.alert("Player 0 won");
 	} else if (
 		(b7 == "0" || b7 == "0") &&
@@ -154,12 +154,12 @@ function myfunc() {
 		(b9 == "0" || b9 == "0")
 	) {
 		$("#print").innerHTML = "Player 0 won";
-		$("#b1").disabled = true;
-		$("#b2").disabled = true;
-		$("#b3").disabled = true;
-		$("#b4").disabled = true;
-		$("#b5").disabled = true;
-		$("#b6").disabled = true;
+		$("#b1").prop("disabled", true);
+		$("#b2").prop("disabled", true);
+		$("#b3").prop("disabled", true);
+		$("#b4").prop("disabled", true);
+		$("#b5").prop("disabled", true);
+		$("#b6").prop("disabled", true);
 		window.alert("Player 0 won");
 	} else if (
 		(b3 == "0" || b3 == "0") &&
@@ -167,12 +167,12 @@ function myfunc() {
 		(b9 == "0" || b9 == "0")
 	) {
 		$("#print").innerHTML = "Player 0 won";
-		$("#b1").disabled = true;
-		$("#b2").disabled = true;
-		$("#b4").disabled = true;
-		$("#b5").disabled = true;
-		$("#b7").disabled = true;
-		$("#b8").disabled = true;
+		$("#b1").prop("disabled", true);
+		$("#b2").prop("disabled", true);
+		$("#b4").prop("disabled", true);
+		$("#b5").prop("disabled", true);
+		$("#b7").prop("disabled", true);
+		$("#b8").prop("disabled", true);
 		window.alert("Player 0 won");
 	} else if (
 		(b1 == "0" || b1 == "0") &&
@@ -180,12 +180,12 @@ function myfunc() {
 		(b9 == "0" || b9 == "0")
 	) {
 		$("#print").innerHTML = "Player 0 won";
-		$("#b2").disabled = true;
-		$("#b3").disabled = true;
-		$("#b4").disabled = true;
-		$("#b6").disabled = true;
-		$("#b7").disabled = true;
-		$("#b8").disabled = true;
+		$("#b2").prop("disabled", true);
+		$("#b3").prop("disabled", true);
+		$("#b4").prop("disabled", true);
+		$("#b6").prop("disabled", true);
+		$("#b7").prop("disabled", true);
+		$("#b8").prop("disabled", true);
 		window.alert("Player 0 won");
 	} else if (
 		(b3 == "0" || b3 == "0") &&
@@ -193,12 +193,12 @@ function myfunc() {
 		(b7 == "0" || b7 == "0")
 	) {
 		$("#print").innerHTML = "Player 0 won";
-		$("#b1").disabled = true;
-		$("#b2").disabled = true;
-		$("#b4").disabled = true;
-		$("#b6").disabled = true;
-		$("#b8").disabled = true;
-		$("#b9").disabled = true;
+		$("#b1").prop("disabled", true);
+		$("#b2").prop("disabled", true);
+		$("#b4").prop("disabled", true);
+		$("#b6").prop("disabled", true);
+		$("#b8").prop("disabled", true);
+		$("#b9").prop("disabled", true);
 		window.alert("Player 0 won");
 	} else if (
 		(b2 == "0" || b2 == "0") &&
@@ -206,12 +206,12 @@ function myfunc() {
 		(b8 == "0" || b8 == "0")
 	) {
 		$("#print").innerHTML = "Player 0 won";
-		$("#b1").disabled = true;
-		$("#b3").disabled = true;
-		$("#b4").disabled = true;
-		$("#b6").disabled = true;
-		$("#b7").disabled = true;
-		$("#b9").disabled = true;
+		$("#b1").prop("disabled", true);
+		$("#b3").prop("disabled", true);
+		$("#b4").prop("disabled", true);
+		$("#b6").prop("disabled", true);
+		$("#b7").prop("disabled", true);
+		$("#b9").prop("disabled", true);
 		window.alert("Player 0 won");
 	} else if (
 		(b4 == "0" || b4 == "0") &&
@@ -219,12 +219,12 @@ function myfunc() {
 		(b6 == "0" || b6 == "0")
 	) {
 		$("#print").innerHTML = "Player 0 won";
-		$("#b1").disabled = true;
-		$("#b2").disabled = true;
-		$("#b3").disabled = true;
-		$("#b7").disabled = true;
-		$("#b8").disabled = true;
-		$("#b9").disabled = true;
+		$("#b1").prop("disabled", true);
+		$("#b2").prop("disabled", true);
+		$("#b3").prop("disabled", true);
+		$("#b7").prop("disabled", true);
+		$("#b8").prop("disabled", true);
+		$("#b9").prop("disabled", true);
 		window.alert("Player 0 won");
 	}
 
@@ -273,11 +273,11 @@ flag = 1;
 function myfunc_3() {
 	if (flag == 1) {
 		$("#b1").val("X");
-		$("#b1").disabled = true;
+		$("#b1").prop("disabled", true);
 		flag = 0;
 	} else {
 		$("#b1").val("0");
-		$("#b1").disabled = true;
+		$("#b1").prop("disabled", true);
 		flag = 1;
 	}
 }
@@ -285,11 +285,11 @@ function myfunc_3() {
 function myfunc_4() {
 	if (flag == 1) {
 		$("#b2").val("X");
-		$("#b2").disabled = true;
+		$("#b2").prop("disabled", true);
 		flag = 0;
 	} else {
 		$("#b2").val("0");
-		$("#b2").disabled = true;
+		$("#b2").prop("disabled", true);
 		flag = 1;
 	}
 }
@@ -297,11 +297,11 @@ function myfunc_4() {
 function myfunc_5() {
 	if (flag == 1) {
 		$("#b3").val("X");
-		$("#b3").disabled = true;
+		$("#b3").prop("disabled", true);
 		flag = 0;
 	} else {
 		$("#b3").val("0");
-		$("#b3").disabled = true;
+		$("#b3").prop("disabled", true);
 		flag = 1;
 	}
 }
@@ -309,11 +309,11 @@ function myfunc_5() {
 function myfunc_6() {
 	if (flag == 1) {
 		$("#b4").val("X");
-		$("#b4").disabled = true;
+		$("#b4").prop("disabled", true);
 		flag = 0;
 	} else {
 		$("#b4").val("0");
-		$("#b4").disabled = true;
+		$("#b4").prop("disabled", true);
 		flag = 1;
 	}
 }
@@ -321,11 +321,11 @@ function myfunc_6() {
 function myfunc_7() {
 	if (flag == 1) {
 		$("#b5").val("X");
-		$("#b5").disabled = true;
+		$("#b5").prop("disabled", true);
 		flag = 0;
 	} else {
 		$("#b5").val("0");
-		$("#b5").disabled = true;
+		$("#b5").prop("disabled", true);
 		flag = 1;
 	}
 }
@@ -333,11 +333,11 @@ function myfunc_7() {
 function myfunc_8() {
 	if (flag == 1) {
 		$("#b6").val("X");
-		$("#b6").disabled = true;
+		$("#b6").prop("disabled", true);
 		flag = 0;
 	} else {
 		$("#b6").val("0");
-		$("#b6").disabled = true;
+		$("#b6").prop("disabled", true);
 		flag = 1;
 	}
 }
@@ -345,11 +345,11 @@ function myfunc_8() {
 function myfunc_9() {
 	if (flag == 1) {
 		$("#b7").val("X");
-		$("#b7").disabled = true;
+		$("#b7").prop("disabled", true);
 		flag = 0;
 	} else {
 		$("#b7").val("0");
-		$("#b7").disabled = true;
+		$("#b7").prop("disabled", true);
 		flag = 1;
 	}
 }
@@ -357,11 +357,11 @@ function myfunc_9() {
 function myfunc_10() {
 	if (flag == 1) {
 		$("#b8").val("X");
-		$("#b8").disabled = true;
+		$("#b8").prop("disabled", true);
 		flag = 0;
 	} else {
 		$("#b8").val("0");
-		$("#b8").disabled = true;
+		$("#b8").prop("disabled", true);
 		flag = 1;
 	}
 }
@@ -369,11 +369,11 @@ function myfunc_10() {
 function myfunc_11() {
 	if (flag == 1) {
 		$("#b9").val("X");
-		$("#b9").disabled = true;
+		$("#b9").prop("disabled", true);
 		flag = 0;
 	} else {
 		$("#b9").val("0");
-		$("#b9").disabled = true;
+		$("#b9").prop("disabled", true);
 		flag = 1;
 	}
 }
