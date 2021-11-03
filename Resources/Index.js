@@ -1,14 +1,15 @@
 function myfunc() {
+	console.log("myfunc");
 	// Setting DOM to all boxes or input field
-	let b1 = $("#b1").value;
-	let b2 = $("#b2").value;
-	let b3 = $("#b3").value;
-	let b4 = $("#b4").value;
-	let b5 = $("#b5").value;
-	let b6 = $("#b6").value;
-	let b7 = $("#b7").value;
-	let b8 = $("#b8").value;
-	let b9 = $("#b9").value;
+	let b1 = $("#b1").val();
+	let b2 = $("#b2").val();
+	let b3 = $("#b3").val();
+	let b4 = $("#b4").val();
+	let b5 = $("#b5").val();
+	let b6 = $("#b6").val();
+	let b7 = $("#b7").val();
+	let b8 = $("#b8").val();
+	let b9 = $("#b9").val();
 
 	// Checking if Player X won or not and after
 	// that disabled all the other fields
@@ -256,15 +257,15 @@ function myfunc() {
 // Function to reset game
 function myfunc_2() {
 	location.reload();
-	$("#b1").val("") = "";
-	$("#b2").val("") = "";
-	$("#b3").val("") = "";
-	$("#b4").val("") = "";
-	$("#b5").val("") = "";
-	$("#b6").val("") = "";
-	$("#b7").val("") = "";
-	$("#b8").val("") = "";
-	$("#b9").val("") = "";
+	$("#b1").val("") 
+	$("#b2").val("") 
+	$("#b3").val("") 
+	$("#b4").val("")
+	$("#b5").val("") 
+	$("#b6").val("") 
+	$("#b7").val("") 
+	$("#b8").val("") 
+	$("#b9").val("") 
 }
 
 // Here onwards, functions check turn of the player
