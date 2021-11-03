@@ -256,16 +256,25 @@ function myfunc() {
 
 // Function to reset game
 function myfunc_2() {
-	location.reload();
 	$("#b1").val("") 
+    $("#b1").prop("disabled", false);
 	$("#b2").val("") 
+    $("#b2").prop("disabled", false);
 	$("#b3").val("") 
+    $("#b3").prop("disabled", false);
 	$("#b4").val("")
+    $("#b4").prop("disabled", false);
 	$("#b5").val("") 
+    $("#b5").prop("disabled", false);
 	$("#b6").val("") 
+    $("#b6").prop("disabled", false);
 	$("#b7").val("") 
+    $("#b7").prop("disabled", false);
 	$("#b8").val("") 
+    $("#b8").prop("disabled", false);
 	$("#b9").val("") 
+    $("#b9").prop("disabled", false);
+
 }
 
 // Here onwards, functions check turn of the player
