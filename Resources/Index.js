@@ -1,26 +1,17 @@
-let b1 = $("#b1").value;
-let b2 = $("#b2").value;
-let b3 = $("#b3").value;
-let b4 = $("#b4").value;
-let b5 = $("#b5").value;
-let b6 = $("#b6").value;
-let b7 = $("#b7").value;
-let b8 = $("#b8").value;
-let b9 = $("#b9").value;
+
 
 function myfunc() {
  
     // Setting DOM to all boxes or input field
-    var b1, b1, b3, b4, b5, b6, b7, b8, b9;
-    b1 = document.getElementById("b1").value;
-    b2 = document.getElementById("b2").value;
-    b3 = document.getElementById("b3").value;
-    b4 = document.getElementById("b4").value;
-    b5 = document.getElementById("b5").value;
-    b6 = document.getElementById("b6").value;
-    b7 = document.getElementById("b7").value;
-    b8 = document.getElementById("b8").value;
-    b9 = document.getElementById("b9").value;
+    let b1 = $("#b1").value;
+    let b2 = $("#b2").value;
+    let b3 = $("#b3").value;
+    let b4 = $("#b4").value;
+    let b5 = $("#b5").value;
+    let b6 = $("#b6").value;
+    let b7 = $("#b7").value;
+    let b8 = $("#b8").value;
+    let b9 = $("#b9").value;
  
     // Checking if Player X won or not and after
     // that disabled all the other fields
