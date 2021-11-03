@@ -17,14 +17,14 @@ header{
 }
 
 #b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9{
-    width: 20vh;
-    height: 20vh;
+    width: 21vh;
+    height: 21vh;
     border: 1px solid gray;
     margin:3px;
     border-radius: 6px;
     font-size: 10vh;
     text-align: center;
-
+    color:rebeccapurple
 }
 #b1, #b2,#b3{
     margin-top: 0;
