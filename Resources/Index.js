@@ -256,15 +256,15 @@ function myfunc() {
 // Function to reset game
 function myfunc_2() {
 	location.reload();
-	$("#b1").value = "";
-	$("#b2").value = "";
-	$("#b3").value = "";
-	$("#b4").value = "";
-	$("#b5").value = "";
-	$("#b6").value = "";
-	$("#b7").value = "";
-	$("#b8").value = "";
-	$("#b9").value = "";
+	$("#b1").val("") = "";
+	$("#b2").val("") = "";
+	$("#b3").val("") = "";
+	$("#b4").val("") = "";
+	$("#b5").val("") = "";
+	$("#b6").val("") = "";
+	$("#b7").val("") = "";
+	$("#b8").val("") = "";
+	$("#b9").val("") = "";
 }
 
 // Here onwards, functions check turn of the player
@@ -272,11 +272,11 @@ function myfunc_2() {
 flag = 1;
 function myfunc_3() {
 	if (flag == 1) {
-		$("#b1").value = "X";
+		$("#b1").val("X");
 		$("#b1").disabled = true;
 		flag = 0;
 	} else {
-		$("#b1").value = "0";
+		$("#b1").val("0");
 		$("#b1").disabled = true;
 		flag = 1;
 	}
@@ -284,11 +284,11 @@ function myfunc_3() {
 
 function myfunc_4() {
 	if (flag == 1) {
-		$("#b2").value = "X";
+		$("#b2").val("X");
 		$("#b2").disabled = true;
 		flag = 0;
 	} else {
-		$("#b2").value = "0";
+		$("#b2").val("0");
 		$("#b2").disabled = true;
 		flag = 1;
 	}
@@ -296,11 +296,11 @@ function myfunc_4() {
 
 function myfunc_5() {
 	if (flag == 1) {
-		$("#b3").value = "X";
+		$("#b3").val("X");
 		$("#b3").disabled = true;
 		flag = 0;
 	} else {
-		$("#b3").value = "0";
+		$("#b3").val("0");
 		$("#b3").disabled = true;
 		flag = 1;
 	}
@@ -308,11 +308,11 @@ function myfunc_5() {
 
 function myfunc_6() {
 	if (flag == 1) {
-		$("#b4").value = "X";
+		$("#b4").val("X");
 		$("#b4").disabled = true;
 		flag = 0;
 	} else {
-		$("#b4").value = "0";
+		$("#b4").val("0");
 		$("#b4").disabled = true;
 		flag = 1;
 	}
@@ -320,11 +320,11 @@ function myfunc_6() {
 
 function myfunc_7() {
 	if (flag == 1) {
-		$("#b5").value = "X";
+		$("#b5").val("X");
 		$("#b5").disabled = true;
 		flag = 0;
 	} else {
-		$("#b5").value = "0";
+		$("#b5").val("0");
 		$("#b5").disabled = true;
 		flag = 1;
 	}
@@ -332,11 +332,11 @@ function myfunc_7() {
 
 function myfunc_8() {
 	if (flag == 1) {
-		$("#b6").value = "X";
+		$("#b6").val("X");
 		$("#b6").disabled = true;
 		flag = 0;
 	} else {
-		$("#b6").value = "0";
+		$("#b6").val("0");
 		$("#b6").disabled = true;
 		flag = 1;
 	}
@@ -344,11 +344,11 @@ function myfunc_8() {
 
 function myfunc_9() {
 	if (flag == 1) {
-		$("#b7").value = "X";
+		$("#b7").val("X");
 		$("#b7").disabled = true;
 		flag = 0;
 	} else {
-		$("#b7").value = "0";
+		$("#b7").val("0");
 		$("#b7").disabled = true;
 		flag = 1;
 	}
@@ -356,11 +356,11 @@ function myfunc_9() {
 
 function myfunc_10() {
 	if (flag == 1) {
-		$("#b8").value = "X";
+		$("#b8").val("X");
 		$("#b8").disabled = true;
 		flag = 0;
 	} else {
-		$("#b8").value = "0";
+		$("#b8").val("0");
 		$("#b8").disabled = true;
 		flag = 1;
 	}
@@ -368,11 +368,11 @@ function myfunc_10() {
 
 function myfunc_11() {
 	if (flag == 1) {
-		$("#b9").value = "X";
+		$("#b9").val("X");
 		$("#b9").disabled = true;
 		flag = 0;
 	} else {
-		$("#b9").value = "0";
+		$("#b9").val("0");
 		$("#b9").disabled = true;
 		flag = 1;
 	}
