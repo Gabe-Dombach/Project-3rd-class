@@ -12,3 +12,11 @@ h1{
     font-size: 30px;
     text-align: center;
 }
+
+#but{
+    width: 95px;
+    height: 40px;
+    border: 1px solid;
+    margin: auto;
+    border-radius: 4px;
+}
