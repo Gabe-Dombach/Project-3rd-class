@@ -1,9 +1,34 @@
+$(document).ready(function(){
+		$("#b1").prop("disabled", true);
+		$("#b2").prop("disabled", true);
+		$("#b3").prop("disabled", true);
+		$("#b4").prop("disabled", true);
+		$("#b5").prop("disabled", true);
+		$("#b6").prop("disabled", true);
+		$("#b7").prop("disabled", true);
+		$("#b8").prop("disabled", true);
+		$("#b9").prop("disabled", true);
+		backroundMusic.play();
 
+
+})
 let backroundMusic = new Audio();
 backroundMusic.src = "Resources/music.mp3";
-
+backroundMusic.loop = true;
+function start(){
+		
+		$("#b1").prop("disabled", false);
+		$("#b2").prop("disabled", false);
+		$("#b3").prop("disabled", false);
+		$("#b4").prop("disabled", false);
+		$("#b5").prop("disabled", false);
+		$("#b6").prop("disabled", false);
+		$("#b7").prop("disabled", false);
+		$("#b8").prop("disabled", false);
+		$("#b9").prop("disabled", false);
+		
+}
 function myfunc() {
-	backroundMusic.play();
 
 	console.log("myfunc");
 	// Setting DOM to all boxes or input field
