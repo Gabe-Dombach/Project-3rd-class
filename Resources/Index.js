@@ -1,4 +1,10 @@
+
+let backroundMusic = new Audio();
+backroundMusic.src = "Resources/music.mp3";
+
 function myfunc() {
+	backroundMusic.play();
+
 	console.log("myfunc");
 	// Setting DOM to all boxes or input field
 	let b1 = $("#b1").val();
