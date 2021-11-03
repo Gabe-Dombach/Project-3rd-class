@@ -34,7 +34,7 @@ header{
 }
 .gameboard{
     border:solid black 5px;
-    margin-left:36%;
+    margin:auto;
     display: flex;
     flex-direction: column;
     width: fit-content;
