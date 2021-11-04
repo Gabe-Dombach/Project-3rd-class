@@ -1,35 +1,31 @@
-$(document).ready(function(){
-		$("#b1").prop("disabled", true);
-		$("#b2").prop("disabled", true);
-		$("#b3").prop("disabled", true);
-		$("#b4").prop("disabled", true);
-		$("#b5").prop("disabled", true);
-		$("#b6").prop("disabled", true);
-		$("#b7").prop("disabled", true);
-		$("#b8").prop("disabled", true);
-		$("#b9").prop("disabled", true);
-
-
-})
+$(document).ready(function () {
+	$("#b1").prop("disabled", true);
+	$("#b2").prop("disabled", true);
+	$("#b3").prop("disabled", true);
+	$("#b4").prop("disabled", true);
+	$("#b5").prop("disabled", true);
+	$("#b6").prop("disabled", true);
+	$("#b7").prop("disabled", true);
+	$("#b8").prop("disabled", true);
+	$("#b9").prop("disabled", true);
+});
 let backroundMusic = new Audio();
 backroundMusic.src = "Resources/music.mp3";
 backroundMusic.loop = true;
-function start(){
-				backroundMusic.play();
+function start() {
+	backroundMusic.play();
 
-		$("#b1").prop("disabled", false);
-		$("#b2").prop("disabled", false);
-		$("#b3").prop("disabled", false);
-		$("#b4").prop("disabled", false);
-		$("#b5").prop("disabled", false);
-		$("#b6").prop("disabled", false);
-		$("#b7").prop("disabled", false);
-		$("#b8").prop("disabled", false);
-		$("#b9").prop("disabled", false);
-		
+	$("#b1").prop("disabled", false);
+	$("#b2").prop("disabled", false);
+	$("#b3").prop("disabled", false);
+	$("#b4").prop("disabled", false);
+	$("#b5").prop("disabled", false);
+	$("#b6").prop("disabled", false);
+	$("#b7").prop("disabled", false);
+	$("#b8").prop("disabled", false);
+	$("#b9").prop("disabled", false);
 }
 function myfunc() {
-
 	console.log("myfunc");
 	// Setting DOM to all boxes or input field
 	let b1 = $("#b1").val();
@@ -56,7 +52,6 @@ function myfunc() {
 		$("#b8").prop("disabled", true);
 		$("#b9").prop("disabled", true);
 		$("#print").html("Player X won");
-		
 	} else if (
 		(b1 == "x" || b1 == "X") &&
 		(b4 == "x" || b4 == "X") &&
@@ -69,7 +64,6 @@ function myfunc() {
 		$("#b8").prop("disabled", true);
 		$("#b9").prop("disabled", true);
 		$("#print").html("Player X won");
-		
 	} else if (
 		(b7 == "x" || b7 == "X") &&
 		(b8 == "x" || b8 == "X") &&
@@ -82,7 +76,6 @@ function myfunc() {
 		$("#b5").prop("disabled", true);
 		$("#b6").prop("disabled", true);
 		$("#print").html("Player X won");
-		
 	} else if (
 		(b3 == "x" || b3 == "X") &&
 		(b6 == "x" || b6 == "X") &&
@@ -95,7 +88,6 @@ function myfunc() {
 		$("#b7").prop("disabled", true);
 		$("#b8").prop("disabled", true);
 		$("#print").html("Player X won");
-		
 	} else if (
 		(b1 == "x" || b1 == "X") &&
 		(b5 == "x" || b5 == "X") &&
@@ -108,7 +100,6 @@ function myfunc() {
 		$("#b7").prop("disabled", true);
 		$("#b8").prop("disabled", true);
 		$("#print").html("Player X won");
-		
 	} else if (
 		(b3 == "x" || b3 == "X") &&
 		(b5 == "x" || b5 == "X") &&
@@ -121,7 +112,6 @@ function myfunc() {
 		$("#b8").prop("disabled", true);
 		$("#b9").prop("disabled", true);
 		$("#print").html("Player X won");
-		
 	} else if (
 		(b2 == "x" || b2 == "X") &&
 		(b5 == "x" || b5 == "X") &&
@@ -134,7 +124,6 @@ function myfunc() {
 		$("#b7").prop("disabled", true);
 		$("#b9").prop("disabled", true);
 		$("#print").html("Player X won");
-		
 	} else if (
 		(b4 == "x" || b4 == "X") &&
 		(b5 == "x" || b5 == "X") &&
@@ -147,7 +136,6 @@ function myfunc() {
 		$("#b8").prop("disabled", true);
 		$("#b9").prop("disabled", true);
 		$("#print").html("Player X won");
-		
 	}
 
 	// Checking of Player X finsh
@@ -165,7 +153,6 @@ function myfunc() {
 		$("#b8").prop("disabled", true);
 		$("#b9").prop("disabled", true);
 		$("#print").html("Player 0 won");
-		
 	} else if (
 		(b1 == "0" || b1 == "0") &&
 		(b4 == "0" || b4 == "0") &&
@@ -178,7 +165,6 @@ function myfunc() {
 		$("#b8").prop("disabled", true);
 		$("#b9").prop("disabled", true);
 		$("#print").html("Player 0 won");
-		
 	} else if (
 		(b7 == "0" || b7 == "0") &&
 		(b8 == "0" || b8 == "0") &&
@@ -191,7 +177,6 @@ function myfunc() {
 		$("#b5").prop("disabled", true);
 		$("#b6").prop("disabled", true);
 		$("#print").html("Player 0 won");
-		
 	} else if (
 		(b3 == "0" || b3 == "0") &&
 		(b6 == "0" || b6 == "0") &&
@@ -204,7 +189,6 @@ function myfunc() {
 		$("#b7").prop("disabled", true);
 		$("#b8").prop("disabled", true);
 		$("#print").html("Player 0 won");
-		
 	} else if (
 		(b1 == "0" || b1 == "0") &&
 		(b5 == "0" || b5 == "0") &&
@@ -217,7 +201,6 @@ function myfunc() {
 		$("#b7").prop("disabled", true);
 		$("#b8").prop("disabled", true);
 		$("#print").html("Player 0 won");
-		
 	} else if (
 		(b3 == "0" || b3 == "0") &&
 		(b5 == "0" || b5 == "0") &&
@@ -230,7 +213,6 @@ function myfunc() {
 		$("#b8").prop("disabled", true);
 		$("#b9").prop("disabled", true);
 		$("#print").html("Player 0 won");
-		
 	} else if (
 		(b2 == "0" || b2 == "0") &&
 		(b5 == "0" || b5 == "0") &&
@@ -243,7 +225,6 @@ function myfunc() {
 		$("#b7").prop("disabled", true);
 		$("#b9").prop("disabled", true);
 		$("#print").html("Player 0 won");
-		
 	} else if (
 		(b4 == "0" || b4 == "0") &&
 		(b5 == "0" || b5 == "0") &&
@@ -256,7 +237,6 @@ function myfunc() {
 		$("#b8").prop("disabled", true);
 		$("#b9").prop("disabled", true);
 		$("#print").html("Player 0 won");
-		
 	}
 
 	// Checking of Player 0 finsh
@@ -273,40 +253,37 @@ function myfunc() {
 		(b9 == "X" || b9 == "0")
 	) {
 		$("#print").html("Match Tie");
-		
 	} else {
 		// Here, Printing Result
 		if (flag == 1) {
 			$("#turn").html("X");
 		} else {
-			$("#turn").html("O")
+			$("#turn").html("O");
 		}
 	}
 }
 
 // Function to reset game
 function myfunc_2() {
-	$("#b1").val("") 
-    $("#b1").prop("disabled", false);
-	$("#b2").val("") 
-    $("#b2").prop("disabled", false);
-	$("#b3").val("") 
-    $("#b3").prop("disabled", false);
-	$("#b4").val("")
-    $("#b4").prop("disabled", false);
-	$("#b5").val("") 
-    $("#b5").prop("disabled", false);
-	$("#b6").val("") 
-    $("#b6").prop("disabled", false);
-	$("#b7").val("") 
-    $("#b7").prop("disabled", false);
-	$("#b8").val("") 
-    $("#b8").prop("disabled", false);
-	$("#b9").val("") 
-    $("#b9").prop("disabled", false);
-	$('#print').html("")
-	
-
+	$("#b1").val("");
+	$("#b1").prop("disabled", false);
+	$("#b2").val("");
+	$("#b2").prop("disabled", false);
+	$("#b3").val("");
+	$("#b3").prop("disabled", false);
+	$("#b4").val("");
+	$("#b4").prop("disabled", false);
+	$("#b5").val("");
+	$("#b5").prop("disabled", false);
+	$("#b6").val("");
+	$("#b6").prop("disabled", false);
+	$("#b7").val("");
+	$("#b7").prop("disabled", false);
+	$("#b8").val("");
+	$("#b8").prop("disabled", false);
+	$("#b9").val("");
+	$("#b9").prop("disabled", false);
+	$("#print").html("");
 }
 
 // Here onwards, functions check turn of the player
