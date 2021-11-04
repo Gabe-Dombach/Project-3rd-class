@@ -49,7 +49,7 @@ function myfunc() {
 		(b2 == "x" || b2 == "X") &&
 		(b3 == "x" || b3 == "X")
 	) {
-		$("3print").innerHTML = "Player X won";
+		$("3print").html("Player X won");
 		$("#b4").prop("disabled", true);
 		$("#b5").prop("disabled", true);
 		$("#b6").prop("disabled", true);
@@ -62,7 +62,7 @@ function myfunc() {
 		(b4 == "x" || b4 == "X") &&
 		(b7 == "x" || b7 == "X")
 	) {
-		$("#print").innerHTML = "Player X won";
+		$("#print").html("Player X won");
 		$("#b2").prop("disabled", true);
 		$("#b3").prop("disabled", true);
 		$("#b5").prop("disabled", true);
@@ -76,7 +76,7 @@ function myfunc() {
 		(b8 == "x" || b8 == "X") &&
 		(b9 == "x" || b9 == "X")
 	) {
-		$("#print").innerHTML = "Player X won";
+		$("#print").html("Player X won");
 		$("#b1").prop("disabled", true);
 		$("#b2").prop("disabled", true);
 		$("#b3").prop("disabled", true);
@@ -89,7 +89,7 @@ function myfunc() {
 		(b6 == "x" || b6 == "X") &&
 		(b9 == "x" || b9 == "X")
 	) {
-		$("#print").innerHTML = "Player X won";
+		$("#print").html("Player X won");
 		$("#b1").prop("disabled", true);
 		$("#b2").prop("disabled", true);
 		$("#b4").prop("disabled", true);
@@ -102,7 +102,7 @@ function myfunc() {
 		(b5 == "x" || b5 == "X") &&
 		(b9 == "x" || b9 == "X")
 	) {
-		$("#print").innerHTML = "Player X won";
+		$("#print").html("Player X won");
 		$("#b2").prop("disabled", true);
 		$("#b3").prop("disabled", true);
 		$("#b4").prop("disabled", true);
@@ -115,7 +115,7 @@ function myfunc() {
 		(b5 == "x" || b5 == "X") &&
 		(b7 == "x" || b7 == "X")
 	) {
-		$("#print").innerHTML = "Player X won";
+		$("#print").html("Player X won");
 		$("#b1").prop("disabled", true);
 		$("#b2").prop("disabled", true);
 		$("#b4").prop("disabled", true);
@@ -128,7 +128,7 @@ function myfunc() {
 		(b5 == "x" || b5 == "X") &&
 		(b8 == "x" || b8 == "X")
 	) {
-		$("#print").innerHTML = "Player X won";
+		$("#print").html("Player X won");
 		$("#b1").prop("disabled", true);
 		$("#b3").prop("disabled", true);
 		$("#b4").prop("disabled", true);
@@ -141,7 +141,7 @@ function myfunc() {
 		(b5 == "x" || b5 == "X") &&
 		(b6 == "x" || b6 == "X")
 	) {
-		$("#print").innerHTML = "Player X won";
+		$("#print").html("Player X won");
 		$("#b1").prop("disabled", true);
 		$("#b2").prop("disabled", true);
 		$("#b3").prop("disabled", true);
@@ -159,7 +159,7 @@ function myfunc() {
 		(b2 == "0" || b2 == "0") &&
 		(b3 == "0" || b3 == "0")
 	) {
-		$("#print").innerHTML = "Player 0 won";
+		$("#print").html("Player 0 won");
 		$("#b4").prop("disabled", true);
 		$("#b5").prop("disabled", true);
 		$("#b6").prop("disabled", true);
@@ -172,7 +172,7 @@ function myfunc() {
 		(b4 == "0" || b4 == "0") &&
 		(b7 == "0" || b7 == "0")
 	) {
-		$("#print").innerHTML = "Player 0 won";
+		$("#print").html("Player 0 won");
 		$("#b2").prop("disabled", true);
 		$("#b3").prop("disabled", true);
 		$("#b5").prop("disabled", true);
@@ -185,7 +185,7 @@ function myfunc() {
 		(b8 == "0" || b8 == "0") &&
 		(b9 == "0" || b9 == "0")
 	) {
-		$("#print").innerHTML = "Player 0 won";
+		$("#print").html("Player 0 won");
 		$("#b1").prop("disabled", true);
 		$("#b2").prop("disabled", true);
 		$("#b3").prop("disabled", true);
@@ -198,7 +198,7 @@ function myfunc() {
 		(b6 == "0" || b6 == "0") &&
 		(b9 == "0" || b9 == "0")
 	) {
-		$("#print").innerHTML = "Player 0 won";
+		$("#print").html("Player 0 won");
 		$("#b1").prop("disabled", true);
 		$("#b2").prop("disabled", true);
 		$("#b4").prop("disabled", true);
@@ -211,7 +211,7 @@ function myfunc() {
 		(b5 == "0" || b5 == "0") &&
 		(b9 == "0" || b9 == "0")
 	) {
-		$("#print").innerHTML = "Player 0 won";
+		$("#print").html("Player 0 won");
 		$("#b2").prop("disabled", true);
 		$("#b3").prop("disabled", true);
 		$("#b4").prop("disabled", true);
@@ -224,7 +224,7 @@ function myfunc() {
 		(b5 == "0" || b5 == "0") &&
 		(b7 == "0" || b7 == "0")
 	) {
-		$("#print").innerHTML = "Player 0 won";
+		$("#print").html("Player 0 won");
 		$("#b1").prop("disabled", true);
 		$("#b2").prop("disabled", true);
 		$("#b4").prop("disabled", true);
@@ -237,7 +237,7 @@ function myfunc() {
 		(b5 == "0" || b5 == "0") &&
 		(b8 == "0" || b8 == "0")
 	) {
-		$("#print").innerHTML = "Player 0 won";
+		$("#print").html("Player 0 won");
 		$("#b1").prop("disabled", true);
 		$("#b3").prop("disabled", true);
 		$("#b4").prop("disabled", true);
@@ -250,7 +250,7 @@ function myfunc() {
 		(b5 == "0" || b5 == "0") &&
 		(b6 == "0" || b6 == "0")
 	) {
-		$("#print").innerHTML = "Player 0 won";
+		$("#print").html("Player 0 won");
 		$("#b1").prop("disabled", true);
 		$("#b2").prop("disabled", true);
 		$("#b3").prop("disabled", true);
@@ -273,14 +273,14 @@ function myfunc() {
 		(b8 == "X" || b8 == "0") &&
 		(b9 == "X" || b9 == "0")
 	) {
-		$("#print").innerHTML = "Match Tie";
+		$("#print").html("Match Tie");
 		window.alert("Match Tie");
 	} else {
 		// Here, Printing Result
 		if (flag == 1) {
-			$("#print").innerHTML = "Player X Turn";
+			$("#print").html("Player X Turn");
 		} else {
-			$("#print").innerHTML = "Player 0 Turn";
+			$("#print").html("Player O Turn")
 		}
 	}
 }
