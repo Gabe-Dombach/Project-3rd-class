@@ -45,6 +45,9 @@ function myfunc() {
 		(b2 == "x" || b2 == "X") &&
 		(b3 == "x" || b3 == "X")
 	) {
+		$("#b1").css("background-color", "green");
+		$("#b2").css("background-color", "green");
+		$("#b3").css("background-color", "green");
 		$("#b4").prop("disabled", true);
 		$("#b5").prop("disabled", true);
 		$("#b6").prop("disabled", true);
@@ -57,6 +60,9 @@ function myfunc() {
 		(b4 == "x" || b4 == "X") &&
 		(b7 == "x" || b7 == "X")
 	) {
+		$("#b1").css("background-color", "green");
+		$("#b4").css("background-color", "green");
+		$("#b7").css("background-color", "green");
 		$("#b2").prop("disabled", true);
 		$("#b3").prop("disabled", true);
 		$("#b5").prop("disabled", true);
@@ -69,6 +75,9 @@ function myfunc() {
 		(b8 == "x" || b8 == "X") &&
 		(b9 == "x" || b9 == "X")
 	) {
+		$("#b7").css("background-color", "green");
+		$("#b8").css("background-color", "green");
+		$("#b9").css("background-color", "green");
 		$("#b1").prop("disabled", true);
 		$("#b2").prop("disabled", true);
 		$("#b3").prop("disabled", true);
@@ -81,6 +90,9 @@ function myfunc() {
 		(b6 == "x" || b6 == "X") &&
 		(b9 == "x" || b9 == "X")
 	) {
+		$("#b3").css("background-color", "green");
+		$("#b6").css("background-color", "green");
+		$("#b9").css("background-color", "green");
 		$("#b1").prop("disabled", true);
 		$("#b2").prop("disabled", true);
 		$("#b4").prop("disabled", true);
@@ -93,6 +105,9 @@ function myfunc() {
 		(b5 == "x" || b5 == "X") &&
 		(b9 == "x" || b9 == "X")
 	) {
+		$("#b1").css("background-color", "green");
+		$("#b5").css("background-color", "green");
+		$("#b9").css("background-color", "green");
 		$("#b2").prop("disabled", true);
 		$("#b3").prop("disabled", true);
 		$("#b4").prop("disabled", true);
@@ -105,6 +120,9 @@ function myfunc() {
 		(b5 == "x" || b5 == "X") &&
 		(b7 == "x" || b7 == "X")
 	) {
+		$("#b3").css("background-color", "green");
+		$("#b5").css("background-color", "green");
+		$("#b7").css("background-color", "green");
 		$("#b1").prop("disabled", true);
 		$("#b2").prop("disabled", true);
 		$("#b4").prop("disabled", true);
@@ -117,6 +135,9 @@ function myfunc() {
 		(b5 == "x" || b5 == "X") &&
 		(b8 == "x" || b8 == "X")
 	) {
+		$("#b2").css("background-color", "green");
+		$("#b5").css("background-color", "green");
+		$("#b8").css("background-color", "green");
 		$("#b1").prop("disabled", true);
 		$("#b3").prop("disabled", true);
 		$("#b4").prop("disabled", true);
@@ -129,6 +150,9 @@ function myfunc() {
 		(b5 == "x" || b5 == "X") &&
 		(b6 == "x" || b6 == "X")
 	) {
+		$("#b4").css("background-color", "green");
+		$("#b5").css("background-color", "green");
+		$("#b6").css("background-color", "green");
 		$("#b1").prop("disabled", true);
 		$("#b2").prop("disabled", true);
 		$("#b3").prop("disabled", true);
@@ -146,6 +170,9 @@ function myfunc() {
 		(b2 == "0" || b2 == "0") &&
 		(b3 == "0" || b3 == "0")
 	) {
+		$("#b1").css("background-color", "green");
+		$("#b2").css("background-color", "green");
+		$("#b3").css("background-color", "green");
 		$("#b4").prop("disabled", true);
 		$("#b5").prop("disabled", true);
 		$("#b6").prop("disabled", true);
@@ -158,6 +185,9 @@ function myfunc() {
 		(b4 == "0" || b4 == "0") &&
 		(b7 == "0" || b7 == "0")
 	) {
+		$("#b1").css("background-color", "green");
+		$("#b4").css("background-color", "green");
+		$("#b7").css("background-color", "green");
 		$("#b2").prop("disabled", true);
 		$("#b3").prop("disabled", true);
 		$("#b5").prop("disabled", true);
@@ -170,6 +200,9 @@ function myfunc() {
 		(b8 == "0" || b8 == "0") &&
 		(b9 == "0" || b9 == "0")
 	) {
+		$("#b7").css("background-color", "green");
+		$("#b8").css("background-color", "green");
+		$("#b9").css("background-color", "green");
 		$("#b1").prop("disabled", true);
 		$("#b2").prop("disabled", true);
 		$("#b3").prop("disabled", true);
@@ -182,6 +215,9 @@ function myfunc() {
 		(b6 == "0" || b6 == "0") &&
 		(b9 == "0" || b9 == "0")
 	) {
+		$("#b3").css("background-color", "green");
+		$("#b6").css("background-color", "green");
+		$("#b9").css("background-color", "green");
 		$("#b1").prop("disabled", true);
 		$("#b2").prop("disabled", true);
 		$("#b4").prop("disabled", true);
@@ -194,6 +230,9 @@ function myfunc() {
 		(b5 == "0" || b5 == "0") &&
 		(b9 == "0" || b9 == "0")
 	) {
+		$("#b1").css("background-color", "green");
+		$("#b5").css("background-color", "green");
+		$("#b9").css("background-color", "green");
 		$("#b2").prop("disabled", true);
 		$("#b3").prop("disabled", true);
 		$("#b4").prop("disabled", true);
@@ -206,6 +245,9 @@ function myfunc() {
 		(b5 == "0" || b5 == "0") &&
 		(b7 == "0" || b7 == "0")
 	) {
+		$("#b3").css("background-color", "green");
+		$("#b5").css("background-color", "green");
+		$("#b7").css("background-color", "green");
 		$("#b1").prop("disabled", true);
 		$("#b2").prop("disabled", true);
 		$("#b4").prop("disabled", true);
@@ -218,6 +260,9 @@ function myfunc() {
 		(b5 == "0" || b5 == "0") &&
 		(b8 == "0" || b8 == "0")
 	) {
+		$("#b2").css("background-color", "green");
+		$("#b5").css("background-color", "green");
+		$("#b8").css("background-color", "green");
 		$("#b1").prop("disabled", true);
 		$("#b3").prop("disabled", true);
 		$("#b4").prop("disabled", true);
@@ -230,6 +275,9 @@ function myfunc() {
 		(b5 == "0" || b5 == "0") &&
 		(b6 == "0" || b6 == "0")
 	) {
+		$("#b4").css("background-color", "green");
+		$("#b5").css("background-color", "green");
+		$("#b6").css("background-color", "green");
 		$("#b1").prop("disabled", true);
 		$("#b2").prop("disabled", true);
 		$("#b3").prop("disabled", true);
