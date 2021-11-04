@@ -8,7 +8,6 @@ $(document).ready(function(){
 		$("#b7").prop("disabled", true);
 		$("#b8").prop("disabled", true);
 		$("#b9").prop("disabled", true);
-		backroundMusic.play();
 
 
 })
@@ -16,7 +15,8 @@ let backroundMusic = new Audio();
 backroundMusic.src = "Resources/music.mp3";
 backroundMusic.loop = true;
 function start(){
-		
+				backroundMusic.play();
+
 		$("#b1").prop("disabled", false);
 		$("#b2").prop("disabled", false);
 		$("#b3").prop("disabled", false);
