@@ -25,6 +25,8 @@ header{
     text-align: center;
     color:rebeccapurple;
     cursor:grab;
+    caret-color: transparent;
+
 }
 #b1, #b2,#b3{
     margin-top: 0;
