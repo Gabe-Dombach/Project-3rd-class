@@ -13,6 +13,7 @@ h1{
 }
 header{
     text-align: center;
+    margin-bottom: 2vh;
 }
 
 #b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9{
@@ -44,6 +45,7 @@ header{
     width: fit-content;
     height: fit-content;
     padding:0;
+    padding-top: 2vh;
 }
 #butt{
     width: 95px;
