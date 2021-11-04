@@ -304,6 +304,7 @@ function myfunc_2() {
     $("#b8").prop("disabled", false);
 	$("#b9").val("") 
     $("#b9").prop("disabled", false);
+	$('#print').html("")
 
 }
 
