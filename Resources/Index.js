@@ -55,8 +55,8 @@ function myfunc() {
 		$("#b7").prop("disabled", true);
 		$("#b8").prop("disabled", true);
 		$("#b9").prop("disabled", true);
-		$("3print").html("Player X won");
-		window.alert("Player X won");
+		$("#print").html("Player X won");
+		
 	} else if (
 		(b1 == "x" || b1 == "X") &&
 		(b4 == "x" || b4 == "X") &&
@@ -69,7 +69,7 @@ function myfunc() {
 		$("#b8").prop("disabled", true);
 		$("#b9").prop("disabled", true);
 		$("#print").html("Player X won");
-		window.alert("Player X won");
+		
 	} else if (
 		(b7 == "x" || b7 == "X") &&
 		(b8 == "x" || b8 == "X") &&
@@ -82,7 +82,7 @@ function myfunc() {
 		$("#b5").prop("disabled", true);
 		$("#b6").prop("disabled", true);
 		$("#print").html("Player X won");
-		window.alert("Player X won");
+		
 	} else if (
 		(b3 == "x" || b3 == "X") &&
 		(b6 == "x" || b6 == "X") &&
@@ -95,7 +95,7 @@ function myfunc() {
 		$("#b7").prop("disabled", true);
 		$("#b8").prop("disabled", true);
 		$("#print").html("Player X won");
-		window.alert("Player X won");
+		
 	} else if (
 		(b1 == "x" || b1 == "X") &&
 		(b5 == "x" || b5 == "X") &&
@@ -108,7 +108,7 @@ function myfunc() {
 		$("#b7").prop("disabled", true);
 		$("#b8").prop("disabled", true);
 		$("#print").html("Player X won");
-		window.alert("Player X won");
+		
 	} else if (
 		(b3 == "x" || b3 == "X") &&
 		(b5 == "x" || b5 == "X") &&
@@ -121,7 +121,7 @@ function myfunc() {
 		$("#b8").prop("disabled", true);
 		$("#b9").prop("disabled", true);
 		$("#print").html("Player X won");
-		window.alert("Player X won");
+		
 	} else if (
 		(b2 == "x" || b2 == "X") &&
 		(b5 == "x" || b5 == "X") &&
@@ -134,7 +134,7 @@ function myfunc() {
 		$("#b7").prop("disabled", true);
 		$("#b9").prop("disabled", true);
 		$("#print").html("Player X won");
-		window.alert("Player X won");
+		
 	} else if (
 		(b4 == "x" || b4 == "X") &&
 		(b5 == "x" || b5 == "X") &&
@@ -147,7 +147,7 @@ function myfunc() {
 		$("#b8").prop("disabled", true);
 		$("#b9").prop("disabled", true);
 		$("#print").html("Player X won");
-		window.alert("Player X won");
+		
 	}
 
 	// Checking of Player X finsh
@@ -165,7 +165,7 @@ function myfunc() {
 		$("#b8").prop("disabled", true);
 		$("#b9").prop("disabled", true);
 		$("#print").html("Player 0 won");
-		window.alert("Player 0 won");
+		
 	} else if (
 		(b1 == "0" || b1 == "0") &&
 		(b4 == "0" || b4 == "0") &&
@@ -178,7 +178,7 @@ function myfunc() {
 		$("#b8").prop("disabled", true);
 		$("#b9").prop("disabled", true);
 		$("#print").html("Player 0 won");
-		window.alert("Player 0 won");
+		
 	} else if (
 		(b7 == "0" || b7 == "0") &&
 		(b8 == "0" || b8 == "0") &&
@@ -191,7 +191,7 @@ function myfunc() {
 		$("#b5").prop("disabled", true);
 		$("#b6").prop("disabled", true);
 		$("#print").html("Player 0 won");
-		window.alert("Player 0 won");
+		
 	} else if (
 		(b3 == "0" || b3 == "0") &&
 		(b6 == "0" || b6 == "0") &&
@@ -204,7 +204,7 @@ function myfunc() {
 		$("#b7").prop("disabled", true);
 		$("#b8").prop("disabled", true);
 		$("#print").html("Player 0 won");
-		window.alert("Player 0 won");
+		
 	} else if (
 		(b1 == "0" || b1 == "0") &&
 		(b5 == "0" || b5 == "0") &&
@@ -217,7 +217,7 @@ function myfunc() {
 		$("#b7").prop("disabled", true);
 		$("#b8").prop("disabled", true);
 		$("#print").html("Player 0 won");
-		window.alert("Player 0 won");
+		
 	} else if (
 		(b3 == "0" || b3 == "0") &&
 		(b5 == "0" || b5 == "0") &&
@@ -230,7 +230,7 @@ function myfunc() {
 		$("#b8").prop("disabled", true);
 		$("#b9").prop("disabled", true);
 		$("#print").html("Player 0 won");
-		window.alert("Player 0 won");
+		
 	} else if (
 		(b2 == "0" || b2 == "0") &&
 		(b5 == "0" || b5 == "0") &&
@@ -243,7 +243,7 @@ function myfunc() {
 		$("#b7").prop("disabled", true);
 		$("#b9").prop("disabled", true);
 		$("#print").html("Player 0 won");
-		window.alert("Player 0 won");
+		
 	} else if (
 		(b4 == "0" || b4 == "0") &&
 		(b5 == "0" || b5 == "0") &&
@@ -256,7 +256,7 @@ function myfunc() {
 		$("#b8").prop("disabled", true);
 		$("#b9").prop("disabled", true);
 		$("#print").html("Player 0 won");
-		window.alert("Player 0 won");
+		
 	}
 
 	// Checking of Player 0 finsh
@@ -273,13 +273,13 @@ function myfunc() {
 		(b9 == "X" || b9 == "0")
 	) {
 		$("#print").html("Match Tie");
-		window.alert("Match Tie");
+		
 	} else {
 		// Here, Printing Result
 		if (flag == 1) {
-			$("#print").html("Player X Turn");
+			$("#turn").html("X");
 		} else {
-			$("#print").html("Player O Turn")
+			$("#turn").html("O")
 		}
 	}
 }
