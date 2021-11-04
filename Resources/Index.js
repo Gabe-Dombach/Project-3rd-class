@@ -315,22 +315,31 @@ function myfunc() {
 function myfunc_2() {
 	$("#b1").val("");
 	$("#b1").prop("disabled", false);
+	$("#b1").css("background-color", "white");
 	$("#b2").val("");
 	$("#b2").prop("disabled", false);
+	$("#b2").css("background-color", "white");
 	$("#b3").val("");
 	$("#b3").prop("disabled", false);
+	$("#b3").css("background-color", "white");
 	$("#b4").val("");
 	$("#b4").prop("disabled", false);
+	$("#b4").css("background-color", "white");
 	$("#b5").val("");
 	$("#b5").prop("disabled", false);
+	$("#b5").css("background-color", "white");
 	$("#b6").val("");
 	$("#b6").prop("disabled", false);
+	$("#b6").css("background-color", "white");
 	$("#b7").val("");
 	$("#b7").prop("disabled", false);
+	$("#b7").css("background-color", "white");
 	$("#b8").val("");
 	$("#b8").prop("disabled", false);
+	$("#b8").css("background-color", "white");
 	$("#b9").val("");
 	$("#b9").prop("disabled", false);
+	$("#b9").css("background-color", "white");
 	$("#print").html("");
 }
 
