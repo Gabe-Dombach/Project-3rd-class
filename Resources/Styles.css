@@ -2,7 +2,6 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    overflow: none;
 }
 body{
     background-color: #89CFF0
@@ -24,14 +23,16 @@ header{
     border-radius: 6px;
     font-size: 10vh;
     text-align: center;
-    color:rebeccapurple
+    color:rebeccapurple;
+    cursor:grab;
 }
 #b1, #b2,#b3{
     margin-top: 0;
 }
 #b8,#b9,#b7{
     margin-bottom: 0;
-}
+} 
+
 .gameboard{
     border:solid black 5px;
     background-color: lightgray;
