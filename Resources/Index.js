@@ -24,6 +24,13 @@ function start() {
 	$("#b7").prop("disabled", false);
 	$("#b8").prop("disabled", false);
 	$("#b9").prop("disabled", false);
+	flag = 1;
+		// Here, Printing Result
+		if (flag == 1) {
+			$("#turn").html("X");
+		} else {
+			$("#turn").html("O");
+		}
 }
 function myfunc() {
 	console.log("myfunc");
@@ -341,6 +348,12 @@ function myfunc_2() {
 	$("#b9").prop("disabled", false);
 	$("#b9").css("background-color", "white");
 	$("#print").html("");
+	flag = 1
+	if (flag == 1) {
+		$("#turn").html("X");
+	} else {
+		$("#turn").html("O");
+	}
 }
 
 // Here onwards, functions check turn of the player
