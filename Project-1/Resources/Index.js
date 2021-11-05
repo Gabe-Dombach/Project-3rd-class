@@ -284,6 +284,7 @@ function myfunc_2() {
 	$("#b9").val("");
 	$("#b9").prop("disabled", false);
 	$("#print").html("");
+	$("#square").css('background-colour',"#fff");
 }
 
 // Here onwards, functions check turn of the player
